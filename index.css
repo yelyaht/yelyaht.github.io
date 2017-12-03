@@ -1,0 +1,116 @@
+html {
+      height: 100%;
+    }
+    body {
+       width: 800px;
+       height: 100%;
+    }
+
+    header {
+        background-color: #66c6f9;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 50px;
+        text-align: center;
+        border: 5px solid black;
+        border-radius: 5px 10px 5px 10px / 10px 5px 10px 5px;
+        border-radius: 5px;
+        border-radius: 5px 10px / 10px;
+        font-size: 20px;
+        display: block;
+    }
+    nav {
+        float: left;
+        width: 100%;
+    }
+    .navbar {
+  overflow: hidden;
+  background-color: #bababa;
+  font-family: Arial;
+  }
+   .navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  .dropdown {
+  float: left;
+  overflow: hidden;
+  }
+  .dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  }
+  .navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: gray;
+  }
+  .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  .dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  }
+  .dropdown-content a:hover {
+  background-color: #ddd;
+  }
+  .dropdown:hover .dropdown-content {
+  display: block;
+  }
+    nav ul {
+        padding: ;
+        float: left;
+        border-bottom: ;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: ;
+    }
+    #Franklin_Falls {
+        width: 500px;
+    }
+    #IceCave {
+      width: 500px;
+    }
+    #ApeCave {
+      width: 500px;
+    }
+    #CannonBeachHike {
+      width: 500px;
+    }
+    #LakeSerene {
+      width: 500px;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+    }
+    body {
+    background-color: #bababa;
+}
